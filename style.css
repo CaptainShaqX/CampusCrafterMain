@@ -291,7 +291,7 @@ section{
 }
 
 .job{
-    color: rgb(242, 235, 235);
+    background: linear-gradient(to right, hsl(98 100% 62%),hsl(204 100% 59%) );
     text-align: left;
     margin-inline-end: 5px;
     font-weight:bold;
@@ -303,6 +303,7 @@ section{
     background-color: rgb(172, 169, 164);
 
 }
+
 
 .home{
    height:800px;
