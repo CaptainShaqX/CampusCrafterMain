@@ -12,7 +12,7 @@
 }
 
 
-*,
+/* *,
 *::after,
 *::before{
     box-sizing: border-box;
@@ -49,10 +49,23 @@
 }
 
 
-
+ */
 
 
 /* Additional Nav */
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.html{
+    font-size: 62.5%;
+}
 
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines{
@@ -88,13 +101,14 @@
 }
 .logo{
     order: 1;
-    font-size: 2.3rem;
+    font-size: 4 rem;
 }
 
 .menu-items li{
+
     list-style: none;
     margin-left: 1.5rem;
-    font-size: 1.3rem;
+    font-size: 1 rem;
 }
 
 .navbar a{
@@ -223,7 +237,9 @@
     }
 }
 
-/* Additional Nav */
+
+
+/* Additional Nav End */
 
 
 
@@ -350,7 +366,7 @@ nav ul li:hover::after {
 
 
 
-html{
+/* html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-padding-top: 9rem;
@@ -500,11 +516,11 @@ section{
     font-weight:bold;
     font-size:40px;
     margin-top:4px;
-}
+} */
 
 
 
-.home{
+/* .home{
    height:800px;
     display: flex;
     align-items: center;
@@ -598,8 +614,8 @@ section{
     font-size: 2.5rem;
     
 }
-
-
+ */
+/* 
 .menu .box-container .box h3:hover{
     color:white;
 }
@@ -904,19 +920,23 @@ display:none;
 .wrapper{
     display:none;
 }
+ */
 
 
 
-
-h5{
+/* h5{
     margin-left:30px;
     margin-top:10px;
     color:white;
     display:none;
-}
+} */
 
 /* media queries  */
-@media (max-width:991px){
+
+
+
+
+/* @media (max-width:991px){
 
     html{
         font-size: 55%;
@@ -977,8 +997,7 @@ h5{
         height: 100%;
         width: 100%;
         background: linear-gradient(-135deg, #cb9ec8, #4158d0);
-        /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-        /* clip-path: circle(25px at calc(0% + 45px) 45px); */
+     
         clip-path: circle(25px at calc(100% - 45px) 45px);
         transition: all 0.3s ease-in-out;
       }
@@ -989,7 +1008,7 @@ h5{
         position: inherit;
         z-index: 2;
         right: 20px;
-        /* left: 20px; */
+        
         top: 10px;
         height: 50px;
         width: 50px;
@@ -1001,10 +1020,14 @@ h5{
         color: #fff;
         cursor: pointer;
         background: linear-gradient(-135deg, #c46e8b, #ebaf81);
-        /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+       
         transition: all 0.3s ease-in-out;
       }
-      #active:checked ~ .menu-btn{
+
+ */
+
+
+      /* #active:checked ~ .menu-btn{
         background: #fff;
         color: #97875a;
       }
@@ -1078,9 +1101,9 @@ margin-right:20px;
     h5{
         display:inline;
     }
-}
+} */
 
-@media (max-width:450px){
+/* @media (max-width:450px){
 
     html{
         font-size: 50%;
@@ -1098,26 +1121,35 @@ margin-right:20px;
     margin-left:43px;
     width:86.2%;
     
-  }
+  } */
   
   /* Style the links inside the navigation bar */
-  .example a {
+ 
+ 
+ 
+ 
+  /* .example a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+  } */
   
   /* Change the color of links on hover */
-  .example a:hover {
+  /* .example a:hover {
     background-color: #496158;
     color: black;
-  }
+  } */
   
   /* Add a color to the active/current link */
-  .example a.active {
+
+
+
+
+
+  /* .example a.active {
     background-color: #496158;
     color: white;
   }
@@ -1238,4 +1270,4 @@ margin-right:20px;
     letter-spacing: 0.1rem;
     
   }
-  
+   */
