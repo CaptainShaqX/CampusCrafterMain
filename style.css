@@ -644,7 +644,7 @@ section{
 }
 
 .job{
-    background: linear-gradient(to right, hsl(98 100% 62%),hsl(204 100% 59%) );
+    color: rgb(242, 235, 235);
     text-align: left;
     margin-inline-end: 5px;
     font-weight:bold;
@@ -652,9 +652,13 @@ section{
     margin-top:4px;
 } */
 
+<<<<<<< HEAD
 
 
 /* .home{
+=======
+.home{
+>>>>>>> parent of ba95c89 (Deleted a Section)
    height:800px;
     display: flex;
     align-items: center;
